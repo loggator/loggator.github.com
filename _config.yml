@@ -1,0 +1,10 @@
+# Site settings
+title: Loggator Blog
+email: info@loggator.com
+description: ""
+baseurl: ""
+url: "http://blog.loggator.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
