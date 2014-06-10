@@ -1,10 +1,12 @@
-# Site settings
-title: Loggator Blog
-email: info@loggator.com
-description: ""
-baseurl: ""
-url: "http://blog.loggator.com"
+markdown: rdiscount
+permalink: /posts/:title
+rdiscount:
+  extensions: [smart]
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+gems:
+  - jekyll-sitemap
+
+name: Loggator
+url: http://blog.loggator.com
+description: A fantastic blog that is fantastic.
+twitter: loggator
